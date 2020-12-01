@@ -24,7 +24,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String userHomePage() { 
-		return "Welcome to my Spring Boot Project - User Management";
+		return "Welcome to Spring Boot Project";
 	}
 	
 	@PostMapping(value="/addUser") 
